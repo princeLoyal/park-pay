@@ -16,7 +16,7 @@ const Header = () => {
                 <div className={classes['header-firstDiv']}>
                     <p>Welcome back,</p> 
                     <p>West</p> 
-                    <img src='' width='20' className={classes['header-wavyhand']}/>
+                    <img src={m} width='20' className={classes['header-wavyhand']}/>
                     <img src='' width='40' className={classes['header-bell']}/>
                 </div>
             <div className={classes['header-secondDiv']}>
