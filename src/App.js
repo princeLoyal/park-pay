@@ -11,7 +11,7 @@ function App() {
     { !isLoggedIn && <section>
        <FirstPage />
       </section> }
-    { isLoggedIn && <Hell /> }
+    { isLoggedIn && <Transaction /> }
     </div>
   );
 };
