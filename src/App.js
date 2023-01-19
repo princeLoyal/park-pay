@@ -11,11 +11,8 @@ function App() {
     { !isLoggedIn && <section>
        <FirstPage />
       </section> }
-    { isLoggedIn && 
-<section>
+    { isLoggedIn &&
       <Header /> 
-      <Transaction />
-</section>
      }
     </div>
   );
