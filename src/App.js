@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import FirstPage from './components/loginAndCreateAccount/FirstPage';
 import Header from './components/loginAndCreateAccount/Header';
-import Transaction from './components/loginAndCreateAccount/Transaction';
 import classes from './App.module.css';
 
 function App() {
@@ -11,8 +10,7 @@ function App() {
     { !isLoggedIn && <section>
        <FirstPage />
       </section> }
-    { isLoggedIn && <Header /> 
-     }
+    { isLoggedIn && <Header /> }
     </div>
   );
 };
