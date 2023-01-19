@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import wavyHand from '../../picturesAndFiles/mdi_hand-wave-outline.png';
-import notificationBell from '../../picturesAndFiles/mdi_bell-notification-outline.png';
-import hiddenEye from '../../picturesAndFiles/Eye, Hidden.png';
+import wavyHand from '../../picturesAndFiles/Lines.png';
+import notificationBell from '../../picturesAndFiles/Lines.png';
+import hiddenEye from '../../picturesAndFiles/Lines.png';
  
 import classes from './Header.module.css';
 const Header = () => {
