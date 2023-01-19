@@ -12,8 +12,10 @@ function App() {
        <FirstPage />
       </section> }
     { isLoggedIn && 
+<section>
       <Header /> 
       <Transaction />
+</section>
      }
     </div>
   );
