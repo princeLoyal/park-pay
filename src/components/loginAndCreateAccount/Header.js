@@ -1,5 +1,8 @@
 import { Fragment } from "react";
-import m from '../../picturesAndFiles/Lines.png';
+import wavyHand from '../../picturesAndFiles/Lines.png';
+import wavyHand from '../../picturesAndFiles/notificationBell.png';
+import wavyHand from '../../picturesAndFiles/hiddenEye.png';
+ 
 import classes from './Header.module.css';
 const Header = () => {
     const weekDays = ['Monday', 'Tuesday', 'Wednessday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
