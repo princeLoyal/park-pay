@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import m from '../../App.js'
+import m from '../../picturesAndFiles/Lines.png';
 import classes from './Header.module.css';
 const Header = () => {
     const weekDays = ['Monday', 'Tuesday', 'Wednessday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
